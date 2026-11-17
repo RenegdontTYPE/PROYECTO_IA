@@ -1,0 +1,24 @@
+
+# Entorno virtual de Python
+.venv/
+venv/
+
+# Archivos temporales
+__pycache__/
+*.pyc
+
+# Configuraciones sensibles
+.env
+.env.*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Datasets y capturas grandes
+*.pcap
+*.pcapng
+*.joblib
+
+# Caché de Streamlit
+.streamlit/secrets.toml
