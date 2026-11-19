@@ -17,3 +17,4 @@ __pycache__/
 .DS_Store
 .vscode/*
 !.vscode/settings.json
+dashboard_local.py
