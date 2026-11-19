@@ -7,6 +7,11 @@ Verifica que el Integrante 2 cumpla exactamente con el contrato requerido por el
 import os
 import sys
 import unittest
+import warnings
+
+# Ocultar advertencias de compatibilidad entre versiones de librerías
+warnings.filterwarnings('ignore')
+warnings.simplefilter('ignore')
 
 # Asegurar importación de módulos del proyecto
 directorio_raiz = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
