@@ -1,0 +1,19 @@
+# Entorno virtual
+venv/
+env/
+.env
+
+# Archivos de caché y compilación de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Pruebas y cobertura
+.pytest_cache/
+.coverage
+
+# Archivos de configuración de sistema o editor
+.DS_Store
+.vscode/*
+!.vscode/settings.json
